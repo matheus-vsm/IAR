@@ -1,0 +1,75 @@
+{
+  "intents":[
+    
+    { "tag": "saudacao",
+      "patterns":["Ola", "Opa", "Oi", "Tudo bem", "Eae"],
+      "responses": ["Oi", "Olá"]
+    },
+
+    { "tag": "despedida",
+      "patterns":["Valeu", "Tchau", "Obrigado", "Tks", "Falou", "Flw"],
+      "responses": ["Até breve", "Falou", "Tchau tchau"]
+    },
+
+    { "tag": "duvida_pipe_funcao",
+    "patterns":["O que é o pipe?", "Qual função do pipe?"],
+    "responses": ["O PIPE destina-se a apoiar, com recursos não reembolsáveis, a execução de pesquisa científica e tecnológica inovativa em pequenas empresas."]
+    },
+
+    { "tag": "duvida_pipe_sigla",
+    "patterns":["O que significa a sigla pipe?", "Sigla do pipe significado"],
+    "responses": ["Significa Pesquisa Inovativa em Pequenas Empresas - PIPE."]
+    },
+
+    { "tag": "duvida_pipe_ano",
+    "patterns":["Em que ano o pipe surgiu?", "Criação do pipe", "Surgimento do pipe"],
+    "responses": ["O PIPE foi criado em 1997"]
+    },
+
+    { "tag": "duvida_pipe_objetivo",
+    "patterns":["Me diga um objetivo do PIPE", "Objetivos do pipe", "Qual objetivo do pipe"],
+    "responses": ["Induzir o aumento do investimento privado em pesquisa tecnológica.", "Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.", "Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.", "Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.", "Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
+    },
+
+    { "tag": "duvida_pipe_empresa",
+    "patterns":["O projeto de pesquisa tem que ser feito na empresa?"],
+    "responses": ["Sim, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa."]
+    },
+
+    { "tag": "duvida_pipe_dedicacao_exclusiva",
+    "patterns":["Preciso ter dedicação exclusiva ao projeto?"],
+    "responses": ["Caso o pesquisador principal seja pago pela empresa e não receba bolsa da FAPESP, é exigida a dedicação mínima de 24 horas semanais ao projeto na empresa. Em casos excepcionais, em que a empresa demonstra não poder arcar com o salário do Pesquisador Responsável, a FAPESP pode analisar solicitação de Bolsa de Pesquisa em Pequena Empresa (Bolsa PE FAPESP). Se o pesquisador principal solicitar Bolsa PE, é necessária a dedicação mínima de 40 horas semanais ao projeto."]
+    },
+
+    { "tag": "duvida_pipe_emprestimo",
+    "patterns":["O apoio da FAPESP é um empréstimo?", "A fapesp da empréstimo?"],
+    "responses": ["O apoio da FAPESP não é realizado na forma de empréstimo."]
+    },
+
+    { "tag": "duvida_pipe_projetos",
+    "patterns":["Quem avalia os projetos?", "Avaliação dos projetos"],
+    "responses": ["A FAPESP seleciona especialistas das áreas de conhecimento envolvidas no projeto para avaliá-lo. Projetos PIPE Fase 1 são avaliados por pelo menos dois assessores e projetos Fase 2 são avaliados por pelo menos 3 assessores. A identidade dos assessores é mantida em confidencialidade pela FAPESP, como faz a maior parte das agências de financiamento à pesquisa no mundo. Os assessores emitem pareceres e a FAPESP os reúne em comitês de avaliação que debatem cada caso e elaboram um novo parecer sobre cada projeto. Com base em todos esses pareceres e em uma entrevista com os proponentes, a Coordenação de Área e a Coordenação Adjunta de Pesquisa para Inovação fazem uma recomendação final à Diretoria Científica que emite a decisão final."]
+    },
+
+    { "tag": "duvida_pipe_infos",
+    "patterns":["Mais informações sobre o pipe?", "Como posso obter mais informações sobre o PIPE?"],
+    "responses": ["O site fapesp.br/pipe apresenta em detalhes o programa, incluindo o texto completo das normas e as chamadas vigentes. Adicionalmente, de forma periódica, acontece o evento “Diálogo sobre Apoio à Pesquisa para Inovação na Pequena Empresa” no qual o programa PIPE é apresentado e os membros da coordenação tiram dúvidas dos participantes (veja as próximas datas no site do PIPE)."]
+    },
+
+    { "tag": "duvida_pipe_concorrente",
+    "patterns":["Um concorrente pode avaliar meu projeto?"],
+    "responses": ["A FAPESP toma um grande cuidado para evitar que assessores que tenham potencial conflito de interesse com a proposta em análise participem da avaliação. Além disso, para realizar a avaliação, o parecerista assina documento atestando que não tem conflitos com o proponente e se compromete a manter sigilo sobre o tema avaliado."]
+    },
+
+    { "tag": "duvida_pipe_etapas",
+    "patterns":["Há diferentes etapas no programa?", "Quais etapas do programa"],
+    "responses": ["Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares)\nFase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares)\nPIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000)\nFase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+    },
+
+    { "tag": "duvida_pipe_financiados",
+    "patterns":["Que outros itens são financiaveis?", "Da para financiar quais itens?"],
+    "responses": ["Além das bolsas PE e TT e de recursos para viagens, são também financiáveis Serviços de Terceiros, Material Permanente e Material de Consumo. Estes podem ser adquiridos tanto no Brasil quanto no exterior. Em todos os casos, é fundamental que eles sejam bem justificados como essenciais à pesquisa científica ou tecnológica que será desenvolvida no âmbito do projeto. Não são financiáveis itens de produção ou que não sejam essenciais à pesquisa proposta, mesmo que possam ter utilidade para a empresa."]
+    }
+
+  ]
+}
